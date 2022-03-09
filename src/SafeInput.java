@@ -157,6 +157,13 @@ public class SafeInput {
         }
     }
 
+    /**
+     *
+     * @param pipe
+     * @param prompt
+     * @param regEx
+     * @return
+     */
     public static String getRegExString (Scanner pipe, String prompt, String regEx) {
         boolean done = false;
         String trash = "";

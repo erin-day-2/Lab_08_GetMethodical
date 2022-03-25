@@ -1,18 +1,13 @@
-import java.util.Scanner;
-
 public class PrettyHeader {
 
     public static void main(String[] args) {
-        String pretty = "";
 
         prettyHeader("Erin");
 
     }
 
     public static void prettyHeader(String msg) {
-        int starCount = 60;
         int whiteSpace;
-        String stars = "***";
 
         if (msg.length() < 54) {
 

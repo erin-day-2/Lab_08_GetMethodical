@@ -190,8 +190,7 @@ public class DevTest {
     }
 
 
-
-    public static String getRegExString (Scanner pipe, String prompt, String regEx) {
+    public static String getRegExString(Scanner pipe, String prompt, String regEx) {
         boolean done = false;
         String trash = "";
         String retVal = "";
@@ -211,34 +210,4 @@ public class DevTest {
 
     }
 
-public static void prettyHeader(String msg)
-{
-int starCount = 60;
-    while(starCount!=0) {
-        System.out.print("*");
-        starCount--;
-    }
-    System.out.println();
-    int leftStar = (60-msg.length())/2;
-    int left=1;
-    while(left<=leftStar)
-    {
-        System.out.print("*");
-        left++;
-    }
-    System.out.print(msg);
-    int right = 0;
-    while(right<=leftStar)
-    {
-        System.out.print("*");
-        right++;
-    }
-    System.out.println();
-    starCount = 60;
-    while(starCount!=0)
-    {
-        System.out.print("*");
-        starCount--;
-    }
-}
 }
